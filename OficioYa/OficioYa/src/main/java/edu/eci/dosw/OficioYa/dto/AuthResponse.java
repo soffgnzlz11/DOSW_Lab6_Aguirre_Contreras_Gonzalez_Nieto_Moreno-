@@ -6,13 +6,13 @@ public class AuthResponse {
     private String token;
     private String tokenType;
     private Long expiresIn;
-    private Long userId;
+    private String userId;
     private Set<String> roles;
 
     public AuthResponse() {
     }
 
-    public AuthResponse(String token, String tokenType, Long expiresIn, Long userId, Set<String> roles) {
+    public AuthResponse(String token, String tokenType, Long expiresIn, String userId, Set<String> roles) {
         this.token = token;
         this.tokenType = tokenType;
         this.expiresIn = expiresIn;
@@ -44,11 +44,11 @@ public class AuthResponse {
         this.expiresIn = expiresIn;
     }
 
-    public Long getUserId() {
+    public String getUserId() {
         return userId;
     }
 
-    public void setUserId(Long userId) {
+    public void setUserId(String userId) {
         this.userId = userId;
     }
 

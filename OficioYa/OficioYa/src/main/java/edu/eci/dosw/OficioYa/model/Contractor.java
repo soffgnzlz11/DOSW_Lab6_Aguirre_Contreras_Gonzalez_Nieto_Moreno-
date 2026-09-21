@@ -1,33 +1,23 @@
 package edu.eci.dosw.OficioYa.model;
 
 public class Contractor {
-    private Long id;
-    private String name;
+    private Integer id;
     private Double averageRating;
 
     public Contractor() {
     }
 
-    public Contractor(Long id, String name, Double averageRating) {
+    public Contractor(Integer id, Double averageRating) {
         this.id = id;
-        this.name = name;
         this.averageRating = averageRating;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public Double getAverageRating() {

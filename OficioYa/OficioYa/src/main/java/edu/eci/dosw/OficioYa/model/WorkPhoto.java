@@ -3,7 +3,7 @@ package edu.eci.dosw.OficioYa.model;
 import java.time.LocalDateTime;
 
 public class WorkPhoto {
-    private Long id;
+    private Integer id;
     private String url;
     private String description;
     private LocalDateTime uploadedAt;
@@ -11,18 +11,18 @@ public class WorkPhoto {
     public WorkPhoto() {
     }
 
-    public WorkPhoto(Long id, String url, String description, LocalDateTime uploadedAt) {
+    public WorkPhoto(Integer id, String url, String description, LocalDateTime uploadedAt) {
         this.id = id;
         this.url = url;
         this.description = description;
         this.uploadedAt = uploadedAt;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

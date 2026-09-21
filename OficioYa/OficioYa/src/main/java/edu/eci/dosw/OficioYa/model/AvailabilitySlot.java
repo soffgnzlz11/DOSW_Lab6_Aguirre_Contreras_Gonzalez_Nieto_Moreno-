@@ -1,44 +1,46 @@
 package edu.eci.dosw.OficioYa.model;
 
 import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.Date;
 
 public class AvailabilitySlot {
-    private Long id;
-    private DayOfWeek dayOfWeek;
-    private LocalDateTime startTime;
+    private Integer id;
+    private Date dayOfWeek;
+    private LocalTime startTime;
     private LocalDateTime endTime;
 
     public AvailabilitySlot() {
     }
 
-    public AvailabilitySlot(Long id, DayOfWeek dayOfWeek, LocalDateTime startTime, LocalDateTime endTime) {
+    public AvailabilitySlot(Integer id, Date dayOfWeek, LocalTime startTime, LocalDateTime endTime) {
         this.id = id;
         this.dayOfWeek = dayOfWeek;
         this.startTime = startTime;
         this.endTime = endTime;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public DayOfWeek getDayOfWeek() {
+    public Date getDayOfWeek() {
         return dayOfWeek;
     }
 
-    public void setDayOfWeek(DayOfWeek dayOfWeek) {
+    public void setDayOfWeek(Date dayOfWeek) {
         this.dayOfWeek = dayOfWeek;
     }
 
-    public LocalDateTime getStartTime() {
+    public LocalTime getStartTime() {
         return startTime;
     }
 
-    public void setStartTime(LocalDateTime startTime) {
+    public void setStartTime(LocalTime startTime) {
         this.startTime = startTime;
     }
 
@@ -48,15 +50,5 @@ public class AvailabilitySlot {
 
     public void setEndTime(LocalDateTime endTime) {
         this.endTime = endTime;
-    }
-
-    public enum DayOfWeek {
-        MONDAY,
-        TUESDAY,
-        WEDNESDAY,
-        THURSDAY,
-        FRIDAY,
-        SATURDAY,
-        SUNDAY
     }
 }

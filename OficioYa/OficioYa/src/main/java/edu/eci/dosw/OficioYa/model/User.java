@@ -4,37 +4,39 @@ import java.time.LocalDateTime;
 import java.util.Set;
 
 public class User {
-    private Long id;
+    private Integer id;
     private String name;
     private String email;
-    private String phone;
     private String password;
     private String photoUrl;
-    private String fcToken;
+    private String fcmToken;
     private LocalDateTime createdAt;
     private Set<String> roles;
+    private Work work;
+    private Contractor contractor;
 
     public User() {
     }
 
-    public User(Long id, String name, String email, String phone, String password, String photoUrl,
-                String fcToken, LocalDateTime createdAt, Set<String> roles) {
+    public User(Integer id, String name, String email, String password, String photoUrl, String fcmToken,
+                LocalDateTime createdAt, Set<String> roles, Work work, Contractor contractor) {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.phone = phone;
         this.password = password;
         this.photoUrl = photoUrl;
-        this.fcToken = fcToken;
+        this.fcmToken = fcmToken;
         this.createdAt = createdAt;
         this.roles = roles;
+        this.work = work;
+        this.contractor = contractor;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -54,14 +56,6 @@ public class User {
         this.email = email;
     }
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public String getPassword() {
         return password;
     }
@@ -78,12 +72,12 @@ public class User {
         this.photoUrl = photoUrl;
     }
 
-    public String getFcToken() {
-        return fcToken;
+    public String getFcmToken() {
+        return fcmToken;
     }
 
-    public void setFcToken(String fcToken) {
-        this.fcToken = fcToken;
+    public void setFcmToken(String fcmToken) {
+        this.fcmToken = fcmToken;
     }
 
     public LocalDateTime getCreatedAt() {
@@ -100,5 +94,21 @@ public class User {
 
     public void setRoles(Set<String> roles) {
         this.roles = roles;
+    }
+
+    public Work getWork() {
+        return work;
+    }
+
+    public void setWork(Work work) {
+        this.work = work;
+    }
+
+    public Contractor getContractor() {
+        return contractor;
+    }
+
+    public void setContractor(Contractor contractor) {
+        this.contractor = contractor;
     }
 }

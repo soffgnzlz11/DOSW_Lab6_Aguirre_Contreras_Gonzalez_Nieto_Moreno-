@@ -1,17 +1,15 @@
 package edu.eci.dosw.OficioYa.model;
 
-public class Zone {
+public class Trade {
     private Integer id;
     private String name;
-    private String city;
 
-    public Zone() {
+    public Trade() {
     }
 
-    public Zone(Integer id, String name, String city) {
+    public Trade(Integer id, String name) {
         this.id = id;
         this.name = name;
-        this.city = city;
     }
 
     public Integer getId() {
@@ -28,13 +26,5 @@ public class Zone {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
     }
 }
