@@ -1,16 +1,3 @@
-
-# DOSW_Lab6_Aguirre_Contreras_Gonzalez_Nieto_Moreno
-
-## Diagrama de clases
-![Diagrama](OficioYa/OficioYa/src/main/resources/docs/uml/DiagramaDeClasesOficioYA.png)
-
-
-Evidencia inicial de las clases con sus atributos funcionando:
-
-<img width="1054" height="980" alt="evidencia" src="https://github.com/user-attachments/assets/acd7fe0a-3d4e-41ca-960a-be99a5be8294" />
-=======
-# DOSW_Lab6_Aguirre_Contreras_Gonzalez_Nieto_Moreno-
-
 # DOSW_Lab6_Aguirre_Contreras_Gonzalez_Nieto_Moreno-
 
 
@@ -72,6 +59,16 @@ El paquete Exception contiene las clases utilizadas para manejar los diferentes 
 También permite crear excepciones propias del proyecto y centralizar su manejo, de manera que los errores puedan convertirse en respuestas HTTP apropiadas para el cliente. Esto ayuda a mantener un manejo de errores más organizado dentro de la API.
 
 ---
+
+# Parte 3
+## Diagrama de clases
+![Diagrama](OficioYa/OficioYa/src/main/resources/docs/uml/DiagramaDeClasesOficioYA.png)
+
+
+Evidencia inicial de las clases con sus atributos funcionando:
+
+<img width="1054" height="980" alt="evidencia" src="https://github.com/user-attachments/assets/acd7fe0a-3d4e-41ca-960a-be99a5be8294" />
+=======
 
 # Bibliografía
 
