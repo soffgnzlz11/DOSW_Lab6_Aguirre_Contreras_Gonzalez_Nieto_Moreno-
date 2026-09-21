@@ -1,23 +1,23 @@
 package edu.eci.dosw.OficioYa.dto;
 
 public class LoginRequest {
-    private Integer id;
+    private String email;
     private String password;
 
     public LoginRequest() {
     }
 
-    public LoginRequest(Integer id, String password) {
-        this.id = id;
+    public LoginRequest(String email, String password) {
+        this.email = email;
         this.password = password;
     }
 
-    public Integer getId() {
-        return id;
+    public String getEmail() {
+        return email;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setId(String email) {
+        this.email = email;
     }
 
     public String getPassword() {
