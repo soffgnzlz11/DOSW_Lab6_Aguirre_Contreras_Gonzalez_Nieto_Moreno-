@@ -1,3 +1,14 @@
+
+# DOSW_Lab6_Aguirre_Contreras_Gonzalez_Nieto_Moreno
+
+## Diagrama de clases
+![Diagrama](OficioYa/OficioYa/src/main/resources/docs/uml/DiagramaDeClasesOficioYA.png)
+
+
+Evidencia inicial de las clases con sus atributos funcionando:
+
+<img width="1054" height="980" alt="evidencia" src="https://github.com/user-attachments/assets/acd7fe0a-3d4e-41ca-960a-be99a5be8294" />
+=======
 # DOSW_Lab6_Aguirre_Contreras_Gonzalez_Nieto_Moreno-
 
 # DOSW_Lab6_Aguirre_Contreras_Gonzalez_Nieto_Moreno-
@@ -71,3 +82,4 @@ Jakarta EE. (2025). *Jakarta Persistence documentation*. https://jakarta.ee/spec
 Spring. (2026). *Spring Data JPA documentation*. https://docs.spring.io/spring-data/jpa/reference/
 
 Spring. (2026). *Spring Framework documentation*. https://docs.spring.io/spring-framework/reference/
+
