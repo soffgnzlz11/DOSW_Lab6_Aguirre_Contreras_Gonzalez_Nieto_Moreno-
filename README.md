@@ -80,3 +80,18 @@ Spring. (2026). *Spring Data JPA documentation*. https://docs.spring.io/spring-d
 
 Spring. (2026). *Spring Framework documentation*. https://docs.spring.io/spring-framework/reference/
 
+
+
+
+# PARTE 5 - Documentación del API REST con Swagger / OpenAPI
+
+Se implementó la configuración e integración de OpenAPI 3 / Swagger UI en el proyecto Spring Boot.
+
+A continuación se presenta la evidencia del funcionamiento interactivo de Swagger UI en `http://localhost:8080/swagger-ui/index.html`, donde se observan los endpoints documentados para los módulos de **Trabajadores** y **Autenticación**:
+
+<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/90ff1e7f-857e-4595-95a1-9b0228da84f7" />
+
+
+
+
+
