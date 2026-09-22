@@ -10,6 +10,8 @@ public class User {
     private String password;
     private String photoUrl;
     private String fcmToken;
+    private String phone;
+    private String status;
     private LocalDateTime createdAt;
     private Set<String> roles;
     private Work work;
@@ -19,6 +21,7 @@ public class User {
     }
 
     public User(Integer id, String name, String email, String password, String photoUrl, String fcmToken,
+                String phone, String status,
                 LocalDateTime createdAt, Set<String> roles, Work work, Contractor contractor) {
         this.id = id;
         this.name = name;
@@ -26,6 +29,8 @@ public class User {
         this.password = password;
         this.photoUrl = photoUrl;
         this.fcmToken = fcmToken;
+        this.phone = phone;
+        this.status = status;
         this.createdAt = createdAt;
         this.roles = roles;
         this.work = work;
@@ -78,6 +83,22 @@ public class User {
 
     public void setFcmToken(String fcmToken) {
         this.fcmToken = fcmToken;
+    }
+
+    public String getPhone(){
+        return phone;
+    }
+
+    public void setPhone(String phone){
+        this.phone = phone;
+    }
+
+    public String getStatus(){
+        return status;
+    }
+
+    public void setStatus(String status){
+        this.status = status;
     }
 
     public LocalDateTime getCreatedAt() {
